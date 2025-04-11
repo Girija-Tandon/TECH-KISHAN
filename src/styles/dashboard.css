@@ -1,0 +1,91 @@
+/* ✅ Background Image */
+.dashboard {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://greensmarteco.com/wp-content/uploads/2020/07/ecological-agriculture-organic-food-from-eco-friendly-farm.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  /* ✅ Fixed Navigation Bar */
+  .dashboard-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    z-index: 1000;
+  }
+  
+  .dashboard-nav button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .dashboard-nav button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+  }
+  
+  /* ✅ Dashboard Content */
+  .dashboard-content {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 70px;
+  }
+  
+  /* ✅ Buttons Section */
+  .dashboard-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .get-started-btn, .watch-demo-btn {
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .get-started-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+  }
+  
+  .get-started-btn:hover {
+    background: #218838;
+  }
+  
+  .watch-demo-btn {
+    background: #007bff;
+    color: white;
+    border: none;
+  }
+  
+  .watch-demo-btn:hover {
+    background: #0056b3;
+  }
+  
